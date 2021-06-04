@@ -1,0 +1,40 @@
+[
+  {
+    "clientId": 1,
+    "name": "Client A",
+    "routes": {
+      "home": {
+        "path": "/",
+        "component": "HomePage"
+      },
+      "product": {
+        "path": "/product/:productId",
+        "component": "ProductPage"
+      }
+    },
+    "components": {
+      "card": {
+        "showHeader": true,
+        "showImage": true,
+        "showFooter": true
+      }
+    }
+  },
+  {
+    "clientId": 2,
+    "name": "Client B",
+    "routes": {
+      "home": {
+        "path": "/",
+        "component": "ProductPage"
+      }
+    },
+    "components": {
+      "card": {
+        "showHeader": false,
+        "showImage": true,
+        "showFooter": true
+      }
+    }
+  }
+]
